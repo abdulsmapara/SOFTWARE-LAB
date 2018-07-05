@@ -1,4 +1,5 @@
 #!usr/bin/perl
+#Created by ABDUL SATTAR MAPARA
 use POSIX qw(strftime);
 
 print $date;
