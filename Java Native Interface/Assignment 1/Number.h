@@ -23,6 +23,14 @@ JNIEXPORT void JNICALL Java_Number_welcome
 JNIEXPORT jint JNICALL Java_Number_factorial
   (JNIEnv *, jobject, jint);
 
+/*
+ * Class:     Number
+ * Method:    print_string
+ * Signature: (Ljava/lang/String;)V
+ */
+JNIEXPORT void JNICALL Java_Number_print_1string
+  (JNIEnv *, jobject, jstring);
+
 #ifdef __cplusplus
 }
 #endif

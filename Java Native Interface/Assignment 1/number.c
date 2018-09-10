@@ -19,3 +19,9 @@ JNIEXPORT jint JNICALL Java_Number_factorial
 	}
 	return fact;
 }
+JNIEXPORT void JNICALL Java_Number_print_1string
+  (JNIEnv * env, jobject obj, jstring str)
+{
+	const char* msg=(*env)->GetStringUTFChars(env,str,0);
+	printf("%s\n",msg);
+}
