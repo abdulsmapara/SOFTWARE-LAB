@@ -3,4 +3,4 @@ Call a C/C++ function from Java code
 
 Output:
 <br />
-<img src="jni_output.png" type="hidden" />
+<img src="jni_output1.png" hidden/>
