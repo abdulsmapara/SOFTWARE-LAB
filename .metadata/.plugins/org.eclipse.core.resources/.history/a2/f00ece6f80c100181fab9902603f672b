@@ -1,7 +1,0 @@
-package Test;
-
-public class ConcatTest {
-	Juint j = new Juint();
-	String result = j.concat("one","two");
-	assertEquals("onetwo",result);
-}
