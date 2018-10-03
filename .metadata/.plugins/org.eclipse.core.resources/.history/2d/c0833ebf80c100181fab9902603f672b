@@ -1,0 +1,14 @@
+package Test;
+
+import static org.junit.Assert.*;
+
+
+public class ConcatTest {
+	@Test
+	public void test() {
+	Juint j = new Juint();
+	String result = j.concat("one","two");
+	assertEquals("onetwo",result);
+
+	}
+}

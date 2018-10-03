@@ -1,0 +1,12 @@
+package pkg.Question3;
+import org.junit.*;
+
+
+
+public class Que3 {
+	ClassThree obj = new ClassThree();
+	
+	@Rule
+	public 	ErrorCollector collector = new ErrorCollector();
+	
+}

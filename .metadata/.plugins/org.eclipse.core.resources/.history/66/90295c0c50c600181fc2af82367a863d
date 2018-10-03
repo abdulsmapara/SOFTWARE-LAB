@@ -1,0 +1,25 @@
+package pkg.Question3;
+import static org.junit.Assert.assertEquals;
+
+import org.junit.*;
+import org.junit.rules.ErrorCollector;		
+
+
+
+public class Que3 {
+	ClassThree obj = new ClassThree();
+	
+	@Rule
+	public 	ErrorCollector collector = new ErrorCollector();
+	
+	@Test
+	public void testFunc() {
+		try {	
+			Assert.assertTrue(5==obj.add(2, 3));
+		}catch(Throwable t) {
+			collector.addError(t);
+		}
+		
+	}
+	
+}

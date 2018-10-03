@@ -1,0 +1,7 @@
+
+public class ClassFive {
+	
+	public Boolean isEven(int num) {
+		return ((num&1)== 0);
+	}
+}

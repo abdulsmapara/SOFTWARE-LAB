@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/media/abdulsmapara/New Volume/ECLIPSE/.metadata/.plugins/org.eclipse.jdt.core
+2651388692.index
+2879752432.index
+11940933.index
+4263678629.index

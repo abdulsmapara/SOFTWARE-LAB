@@ -1,0 +1,31 @@
+package pkg.Question3;
+
+public class ClassThree {
+	/*
+	 * Java code that contains bugs
+	 * Implements add, multiply and divide 
+	 */
+	/*
+	 * add
+	 * contains intentional bug
+	 */
+	public int add(int a,int b) {
+		return (a-b);	// intentional bug to demonstrate JUnit testing
+		
+	}
+	/*
+	 * multiply
+	 * contains intentional bug
+	 */
+	public int multiply(int a,int b) {
+		return (a*b);	//intentional bug
+	}
+	/*
+	 * divide
+	 * does not check denominator==0 case intentionally
+	 */
+	public int divide(int a,int b) {
+		return (a/b);
+	}
+	
+}
